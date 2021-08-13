@@ -1,0 +1,314 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Oyebami Funso - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/modal-video/css/modal-video.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header" style="padding: 0px;margin: 0px;">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="{% url 'home' %}"><span>F</span>O</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#newsletter">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- End Header -->
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-in">
+      <h1 data-aos="zoom-out" data-aos-delay="100">Hi, I'm Oyebami Funso </h1>
+      <h2 data-aos="zoom-in" data-aos-delay="100">Python - Django Developer</h2>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us padd-section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+
+          <div class="col-md-8 col-lg-3">
+            <img src="{% static 'img/OF.jpg' %}" alt="About" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+
+
+          <div id="testimonials" class="col-md-6">
+
+            <div class="testimonials-content">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+
+                  <div class="carousel-item  active">
+                    <div class="section-titler top-top">
+
+                      <h2>About Me</h2>
+                      <p>A Resourceful and highly motivated Python-Django developer, inclined to bringing user-focused, pragmatic and creative perspective to projects.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="section-titler top-top">
+
+                      <h2>More About Me</h2>
+                      <p>I relish the opportunity to address challenging technical situations with simple, effective and easy to maintain software. Highly skilled in python coding and scripting, Django Framework and communication</p>
+
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="section-titler top-top">
+
+                      <h2>More About Me</h2>
+                      <p>Actively seeking a role in a customer-focused company with a vision for building a brighter future</p>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="btm-btm">
+
+                  <ul class="list-unstyled carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Expertise Section ======= -->
+    <section id="expertise" class="padd-section text-cente">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-4 justify-content-center">
+            <div class="block-pricing">
+              <div class="ik table justify-content-center">
+                <h2 class="section-title text-center">Areas of Expertise</h2>
+                <ul class="list-unstyled">
+                  <li><b>Python</b></li>
+                  <li><b>Django</b></li>
+                  <li><b>Javascript</b></li>
+                  <li><b>HTML5</b></li>
+                  <li><b>CSS</b></li>
+                  <li><b>PostgreSQL</b></li>
+                  <li><b>Bootstrap</b></li>
+                  <li></i><b>Git</b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 justify-content-center">
+            <div class="block-pricing">
+              <div class="table justify-content-center">
+                <h2 class="section-title text-center">Other Skills</h2>
+                <ul class="list-unstyled">
+                  <li><b>The ability to analyze complex technical information</b></li>
+                  <li><b>Can analyze, design and implement database structures</b></li>
+                  <li><b>Detail oriented Excellent problem solver</b></li>
+                  <li><b>Excellent communication and active listening skills.</b></li>
+                  <li><b>Self-motivated and target oriented</b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section><!-- End Expertise Section -->
+
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="padd-sectio">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>Side Projects</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="{% static 'img/ipartake.png' %}"><img src="{% static 'img/ipartake.png' %}" alt="img"></a>
+              <div class="content-blog">
+                <h4><a href="http://grace-covid-response.herokuapp.com" target="_blank">An all-in-one event app that helps event organizers manage their events in a more intelligent and organized way.</a></h4>
+                <span>05, May, 2021</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="{% static 'img/covid_1.png' %}"><img src="{% static 'img/covid_1.png' %}" class="img-responsive" alt="img"></a>
+              <div class="content-blog">
+                <h4><a href="http://grace-covid-response.herokuapp.com" target="_blank">Covid-19 checker for an arbitatry hospital for patients to check their covid-19 results. </a></h4>
+                <span>29, Jan 2021</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-blog text-left">
+              <a href="{% static 'img/tj.png' %}"><img src="{% static 'img/tj.png' %}" class="img-responsive" alt="img"></a>
+              <div class="content-blog">
+                <h4><a href="http://grace-covid-response.herokuapp.com" target="_blank">Designed and built a beautiful wedding websites with amzing features and functionalities.</a></h4>
+                <span>10, April 2021</span>
+                <a class="pull-right readmore" href="#">read more</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Projects Section -->
+
+        <!-- ======= Contact Section ======= -->
+    <section id="newsletter" class="newsletter text-center">
+      <div class="overlay padd-section">
+        <h1 class="section-title text-center">Contact Information</h1>
+        <div class="container" data-aos="zoom-in">
+
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p><b>Zone 8, Capital area, Osogbo<br>Osun State, Nigeria.</b></p>
+              </div>
+
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <p>festusoyebami@gmail.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p>+234-706-425-5125</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form action="{% url 'home' %}" method="post" role="form" class="my-email-form">
+                {% csrf_token %}
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+
+   
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/modal-video/js/modal-video.min.js' %}"></script>
+  <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'vendor/superfish/superfish.min.js' %}"></script>
+  <script src="{% static 'vendor/hoverIntent/hoverIntent.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
